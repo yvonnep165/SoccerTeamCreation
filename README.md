@@ -17,23 +17,23 @@ To run the jar file, please download the java file and reach the folder that con
 ## **How to Use the Program**
 There’re five pieces of information the user needs to enter for the player, which all have corresponding labels regarding first name, last name, date of birth, preferred position and skill level. The user can input the name of the player in the text fields and select the value for the date of birth, preferred position and skill level in the combo boxes. When the user clicked the “Add” button, the player with the information entered in the text fields and combo boxes is created and added to the waiting list. If either the first name or last name entered by the user is empty, a warning will show up at the bottom left corner and ask the user to input the name. If the user’s age calculated from the input year, month and date is larger than 9 and smaller than 1, a warning will show up and tell the user the age of the player is out of the limit. If the year, month and date information entered represents an invalid date in a year, the warning will show up and tell the user the date is invalid. 
 
-![Alt text](../demo%20pictures/Info%20entered.png)
+![Alt text](./demo%20pictures/Info%20entered.png)
 
 The players added to the candidate team are shown in the Jlist on the right of the window with their full names. If the number of players is more than the white box can show, a scroll panel feature will show up and the user can scroll to see the whole list of players. If the user wants to remove the player added to the candidate list, the user can click to select the player’s name and then the “Remove” button is enabled once a player is selected. The user can remove the player from the candidate list when clicking the “Remove” button. 
 
-![Alt text](../demo%20pictures/Player%20list.png)
+![Alt text](./demo%20pictures/Player%20list.png)
 
 When more than or equal to 10 players are added to the candidate list, the user can click the “Create Team” button to create the U10 soccer team. Before 10 players are added to the candidate list, the user will be notified that there are not enough players to create a team with a warning. Once the “Create Team” button is clicked successfully, the team has been formalized and a new dialogue will show the list of all the players in the team with the first name, last name, and jersey number of each player sorted in alphabetical order of their last names. Once the team is created, the “Add”, “Remove” and “Create Team” buttons are disabled while the “Select Starting Lineup” and “Show Team Again” buttons are enabled.
 
-![Alt text](../demo%20pictures/Team%20created.png)
+![Alt text](./demo%20pictures/Team%20created.png)
 
 The “Show Team Again” button once clicked shows the dialogue with the players’ information about the team created previously. The starting lineup has been selected and a new dialogue will show the list of all the players in the starting lineup with the first name, last name, jersey number and position of each player sorted in alphabetical order of the position and then their last names.
 
-![Alt text](../demo%20pictures/Starting%20lineup%20selection.png)
+![Alt text](./demo%20pictures/Starting%20lineup%20selection.png)
 
 The user can select the starting lineup by clicking the “Select Starting Lineup” button. After clicking, the “Select Starting Lineup” button is disabled while the “Show Starting Lineup Again” button is enabled. 
 
-![Alt text](../demo%20pictures/Reshow%20Starting%20lineup.png)
+![Alt text](./demo%20pictures/Reshow%20Starting%20lineup.png)
 
 The “Show Starting Lineup Again” button once clicked shows the dialogue with the players’ information about the starting lineup selected previously. 
 
